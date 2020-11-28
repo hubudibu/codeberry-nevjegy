@@ -1,3 +1,18 @@
 body {
   background: tomato;
 }
+
+/* 
+szelesseg 500
+felso eltartas 170
+kozepen
+belso eltartas 75 es 30
+*/
+
+.box {
+  width: 500px;
+  margin: 170px auto 0;
+  background: lime;
+  padding: 0 75px 30px;
+  box-sizing: border-box;
+}
