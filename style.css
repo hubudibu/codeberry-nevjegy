@@ -1,11 +1,13 @@
 body {
-  background: tomato;
+  background: url(images/hegyek.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box {
   width: 500px;
   margin: 170px auto 0;
-  background: lime;
+  background: linear-gradient(to left top, #949FCB 0%, #FFFCDC 100%);
   padding: 135px 75px 30px;
   box-sizing: border-box;
   position: relative;
