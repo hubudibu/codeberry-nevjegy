@@ -6,6 +6,16 @@ body {
   width: 500px;
   margin: 170px auto 0;
   background: lime;
-  padding: 0 75px 30px;
+  padding: 135px 75px 30px;
   box-sizing: border-box;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  top: -75px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
