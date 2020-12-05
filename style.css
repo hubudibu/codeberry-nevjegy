@@ -3,11 +3,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .box {
   max-width: 500px;
-  margin: 170px auto 0;
+  margin: 100px auto 0;
   background: linear-gradient(to left top, #949FCB 0%, #FFFCDC 100%);
   padding: 135px 30px 30px;
   box-sizing: border-box;
@@ -26,4 +29,10 @@ body {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 520px) {
+  .box {
+    margin: 170px auto 0;
+  }
 }
