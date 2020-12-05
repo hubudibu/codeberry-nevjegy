@@ -2,15 +2,21 @@ body {
   background: url(images/hegyek.png);
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 
 .box {
-  width: 500px;
+  max-width: 500px;
   margin: 170px auto 0;
   background: linear-gradient(to left top, #949FCB 0%, #FFFCDC 100%);
-  padding: 135px 75px 30px;
+  padding: 135px 30px 30px;
   box-sizing: border-box;
   position: relative;
+}
+
+.content {
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 .avatar {
